@@ -1,0 +1,25 @@
+{
+    "name": "aledavidgueva/php-types",
+    "description": "PHP library with most used types and common functions for types definitions. Mode strict enabled.",
+    "type": "library",
+    "version": "8.1-dev",
+    "authors": [
+        {
+            "name": "Alejandro D. Guevara",
+            "email": "alejandro@wandu.ar"
+        }
+    ],
+    "require-dev": {
+        "php": ">=8.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Types\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "tools/**"
+        ]
+    },
+    "minimum-stability": "stable"
+}
